@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodic WANB wildcard DNS refresh via SpaceWeb panel
+
+[Timer]
+OnBootSec=5m
+OnUnitActiveSec=10m
+Unit=sweb-wanb-ddns.service
+
+[Install]
+WantedBy=timers.target

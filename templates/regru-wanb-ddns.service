@@ -1,0 +1,9 @@
+[Unit]
+Description=Update backup bezrabotnyi.com DNS records for WANB
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/recovery-plane
+ExecStart=/usr/bin/env python3 /opt/recovery-plane/regru_wanb_ddns.py --env-file /etc/default/regru-wanb-ddns
