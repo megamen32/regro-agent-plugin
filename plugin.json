@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "regro",
+  "version": "0.1.0",
+  "description": "REG.RU Agent Plugin: REG.API v2 DNS toolkit for agents — self-contained WANB DDNS updater (dual-uplink aware) and certbot DNS-01 auth/cleanup hooks. Credentials come from env files; nothing is embedded.",
+  "license": "MIT",
+  "keywords": [
+    "dns",
+    "regru",
+    "reg-ru",
+    "ddns",
+    "certbot",
+    "acme",
+    "dns-01"
+  ]
+}
